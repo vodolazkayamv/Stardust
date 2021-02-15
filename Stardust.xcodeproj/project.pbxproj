@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"Stardust::StardustPackageTests::ProductTarget" /* StardustPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_125 /* Build configuration list for PBXAggregateTarget "StardustPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_128 /* PBXTargetDependency */,
+			);
+			name = StardustPackageTests;
+			productName = StardustPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9C06115C25DAED9700FD282F /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C06115B25DAED9700FD282F /* Role.swift */; };
+		9C06C08325D9875B0001F621 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C06C07925D9875B0001F621 /* Mappable.swift */; };
+		9C06C08425D9875B0001F621 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C06C07A25D9875B0001F621 /* Endpoints.swift */; };
+		9C06C08525D9875B0001F621 /* REST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C06C07B25D9875B0001F621 /* REST.swift */; };
+		9C06C08625D9875B0001F621 /* Responses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C06C07C25D9875B0001F621 /* Responses.swift */; };
+		9C06C08725D9875B0001F621 /* Querying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C06C07E25D9875B0001F621 /* Querying.swift */; };
+		9C06C08825D9875B0001F621 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C06C07F25D9875B0001F621 /* JSON.swift */; };
+		9C06C08925D9875B0001F621 /* Merging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C06C08025D9875B0001F621 /* Merging.swift */; };
+		9C06C08A25D9875B0001F621 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C06C08125D9875B0001F621 /* Logger.swift */; };
+		9C06C08B25D9875B0001F621 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C06C08225D9875B0001F621 /* Payload.swift */; };
+		9C06C0A725D9881F0001F621 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 9C06C0A625D9881F0001F621 /* Starscream */; };
+		9C06C0B625D9885B0001F621 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9C06C0B525D9885B0001F621 /* Alamofire */; };
+		9C06C0CE25D9892E0001F621 /* StatusCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C06C0CD25D9892E0001F621 /* StatusCodes.swift */; };
+		9C78066625DAA17900FB624C /* Snowflake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78066425DAA17900FB624C /* Snowflake.swift */; };
+		9C78066725DAA17900FB624C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78066525DAA17900FB624C /* User.swift */; };
+		9C78067225DAAB1800FB624C /* Ready.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78067125DAAB1800FB624C /* Ready.swift */; };
+		9C78068125DAACE800FB624C /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78068025DAACE800FB624C /* Application.swift */; };
+		9C78068F25DAD3CF00FB624C /* Guild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78068E25DAD3CF00FB624C /* Guild.swift */; };
+		OBJ_111 /* Bot.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Bot.swift */; };
+		OBJ_114 /* Stardust.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Stardust.swift */; };
+		OBJ_123 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_134 /* StardustTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* StardustTests.swift */; };
+		OBJ_135 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* XCTestManifests.swift */; };
+		OBJ_137 /* Stardust.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Stardust::Stardust::Product" /* Stardust.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CAFD8DF25D439D900BAFD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Stardust::Stardust";
+			remoteInfo = Stardust;
+		};
+		9CAFD8E525D439DA00BAFD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Stardust::StardustTests";
+			remoteInfo = StardustTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C06115B25DAED9700FD282F /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
+		9C06C07925D9875B0001F621 /* Mappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mappable.swift; sourceTree = "<group>"; };
+		9C06C07A25D9875B0001F621 /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		9C06C07B25D9875B0001F621 /* REST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = REST.swift; sourceTree = "<group>"; };
+		9C06C07C25D9875B0001F621 /* Responses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Responses.swift; sourceTree = "<group>"; };
+		9C06C07E25D9875B0001F621 /* Querying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Querying.swift; sourceTree = "<group>"; };
+		9C06C07F25D9875B0001F621 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		9C06C08025D9875B0001F621 /* Merging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Merging.swift; sourceTree = "<group>"; };
+		9C06C08125D9875B0001F621 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		9C06C08225D9875B0001F621 /* Payload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
+		9C06C0CD25D9892E0001F621 /* StatusCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCodes.swift; sourceTree = "<group>"; };
+		9C78066425DAA17900FB624C /* Snowflake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snowflake.swift; sourceTree = "<group>"; };
+		9C78066525DAA17900FB624C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9C78067125DAAB1800FB624C /* Ready.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ready.swift; sourceTree = "<group>"; };
+		9C78068025DAACE800FB624C /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		9C78068E25DAD3CF00FB624C /* Guild.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guild.swift; sourceTree = "<group>"; };
+		OBJ_12 /* Stardust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stardust.swift; sourceTree = "<group>"; };
+		OBJ_15 /* StardustTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StardustTests.swift; sourceTree = "<group>"; };
+		OBJ_16 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* Bot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bot.swift; sourceTree = "<group>"; };
+		"Stardust::Stardust::Product" /* Stardust.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Stardust.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Stardust::StardustTests::Product" /* StardustTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = StardustTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				9C06C0A725D9881F0001F621 /* Starscream in Frameworks */,
+				9C06C0B625D9885B0001F621 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_137 /* Stardust.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C06C07825D9875B0001F621 /* REST */ = {
+			isa = PBXGroup;
+			children = (
+				9C06C07D25D9875B0001F621 /* JSON */,
+				9C06C07925D9875B0001F621 /* Mappable.swift */,
+				9C06C07B25D9875B0001F621 /* REST.swift */,
+				9C06C07C25D9875B0001F621 /* Responses.swift */,
+			);
+			path = REST;
+			sourceTree = "<group>";
+		};
+		9C06C07D25D9875B0001F621 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				9C06C07F25D9875B0001F621 /* JSON.swift */,
+				9C06C07E25D9875B0001F621 /* Querying.swift */,
+				9C06C08025D9875B0001F621 /* Merging.swift */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		9C06C09225D9877B0001F621 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9C06C07825D9875B0001F621 /* REST */,
+				9C06C07A25D9875B0001F621 /* Endpoints.swift */,
+				9C06C0CD25D9892E0001F621 /* StatusCodes.swift */,
+				9C06C08225D9875B0001F621 /* Payload.swift */,
+				9C78067725DAACB400FB624C /* Events */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9C78066C25DAAA3300FB624C /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				9C78066425DAA17900FB624C /* Snowflake.swift */,
+				9C78066525DAA17900FB624C /* User.swift */,
+				9C78068025DAACE800FB624C /* Application.swift */,
+				9C78068E25DAD3CF00FB624C /* Guild.swift */,
+				9C06115B25DAED9700FD282F /* Role.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		9C78067725DAACB400FB624C /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				9C78067125DAAB1800FB624C /* Ready.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		OBJ_13 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_14 /* StardustTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* StardustTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_15 /* StardustTests.swift */,
+				OBJ_16 /* XCTestManifests.swift */,
+			);
+			name = StardustTests;
+			path = Tests/StardustTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_17 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_13 /* Tests */,
+				OBJ_17 /* Dependencies */,
+				OBJ_55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"Stardust::Stardust::Product" /* Stardust.framework */,
+				"Stardust::StardustTests::Product" /* StardustTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Stardust */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* Stardust */ = {
+			isa = PBXGroup;
+			children = (
+				9C06C09225D9877B0001F621 /* Network */,
+				9C06C08125D9875B0001F621 /* Logger.swift */,
+				OBJ_9 /* Bot.swift */,
+				OBJ_12 /* Stardust.swift */,
+				9C78066C25DAAA3300FB624C /* Types */,
+			);
+			name = Stardust;
+			path = Sources/Stardust;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"Stardust::Stardust" /* Stardust */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_107 /* Build configuration list for PBXNativeTarget "Stardust" */;
+			buildPhases = (
+				OBJ_110 /* Sources */,
+				OBJ_115 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stardust;
+			packageProductDependencies = (
+				9C06C0A625D9881F0001F621 /* Starscream */,
+				9C06C0B525D9885B0001F621 /* Alamofire */,
+			);
+			productName = Stardust;
+			productReference = "Stardust::Stardust::Product" /* Stardust.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Stardust::StardustTests" /* StardustTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_130 /* Build configuration list for PBXNativeTarget "StardustTests" */;
+			buildPhases = (
+				OBJ_133 /* Sources */,
+				OBJ_136 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_139 /* PBXTargetDependency */,
+			);
+			name = StardustTests;
+			productName = StardustTests;
+			productReference = "Stardust::StardustTests::Product" /* StardustTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"Stardust::SwiftPMPackageDescription" /* StardustPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_119 /* Build configuration list for PBXNativeTarget "StardustPackageDescription" */;
+			buildPhases = (
+				OBJ_122 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StardustPackageDescription;
+			productName = StardustPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Stardust" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			packageReferences = (
+				9C06C0A525D9881F0001F621 /* XCRemoteSwiftPackageReference "Starscream" */,
+				9C06C0B425D9885B0001F621 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = OBJ_55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"Stardust::Stardust" /* Stardust */,
+				"Stardust::SwiftPMPackageDescription" /* StardustPackageDescription */,
+				"Stardust::StardustPackageTests::ProductTarget" /* StardustPackageTests */,
+				"Stardust::StardustTests" /* StardustTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				9C78068125DAACE800FB624C /* Application.swift in Sources */,
+				9C06C08725D9875B0001F621 /* Querying.swift in Sources */,
+				9C06C08625D9875B0001F621 /* Responses.swift in Sources */,
+				9C06C0CE25D9892E0001F621 /* StatusCodes.swift in Sources */,
+				9C78067225DAAB1800FB624C /* Ready.swift in Sources */,
+				9C06115C25DAED9700FD282F /* Role.swift in Sources */,
+				OBJ_111 /* Bot.swift in Sources */,
+				9C06C08325D9875B0001F621 /* Mappable.swift in Sources */,
+				9C78066625DAA17900FB624C /* Snowflake.swift in Sources */,
+				9C78066725DAA17900FB624C /* User.swift in Sources */,
+				9C06C08425D9875B0001F621 /* Endpoints.swift in Sources */,
+				9C06C08A25D9875B0001F621 /* Logger.swift in Sources */,
+				9C06C08525D9875B0001F621 /* REST.swift in Sources */,
+				9C06C08B25D9875B0001F621 /* Payload.swift in Sources */,
+				OBJ_114 /* Stardust.swift in Sources */,
+				9C06C08825D9875B0001F621 /* JSON.swift in Sources */,
+				9C78068F25DAD3CF00FB624C /* Guild.swift in Sources */,
+				9C06C08925D9875B0001F621 /* Merging.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_123 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_134 /* StardustTests.swift in Sources */,
+				OBJ_135 /* XCTestManifests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Stardust::StardustTests" /* StardustTests */;
+			targetProxy = 9CAFD8E525D439DA00BAFD4F /* PBXContainerItemProxy */;
+		};
+		OBJ_139 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Stardust::Stardust" /* Stardust */;
+			targetProxy = 9CAFD8DF25D439D900BAFD4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Stardust.xcodeproj/Stardust_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Stardust;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Stardust;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Stardust.xcodeproj/Stardust_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Stardust;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Stardust;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Stardust.xcodeproj/StardustTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = StardustTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Stardust.xcodeproj/StardustTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = StardustTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_107 /* Build configuration list for PBXNativeTarget "Stardust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_108 /* Debug */,
+				OBJ_109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_119 /* Build configuration list for PBXNativeTarget "StardustPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_120 /* Debug */,
+				OBJ_121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_125 /* Build configuration list for PBXAggregateTarget "StardustPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_126 /* Debug */,
+				OBJ_127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_130 /* Build configuration list for PBXNativeTarget "StardustTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_131 /* Debug */,
+				OBJ_132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "Stardust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9C06C0A525D9881F0001F621 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		9C06C0B425D9885B0001F621 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9C06C0A625D9881F0001F621 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C06C0A525D9881F0001F621 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+		9C06C0B525D9885B0001F621 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C06C0B425D9885B0001F621 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

@@ -26,7 +26,8 @@ extension Mappable {
             return nil
         }
         do {
-            let decodedData = try JSONDecoder().decode(Self.self, from: data)
+            let decoder = JSONDecoder()
+            let decodedData = try decoder.decode(Self.self, from: data)
             self = decodedData
         } catch let error as DecodingError {
             Logger.logDecodingError(jsonDict, error: error, function: function, file: file, line: line)

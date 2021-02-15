@@ -37,6 +37,7 @@ class Bot {
                                  method: Endpoints.gatewayBot.method,
                                  headers: headers)
         request.responseJSON { (response) in
+            print(response)
             switch response.result {
             case .success(let value):
                 guard let json = value as? [String: Any],
@@ -77,7 +78,7 @@ extension Bot: WebSocketDelegate {
             isConnected = false
             Logger.logLowPriority("websocket is disconnected: \(reason) with code: \(code)")
         case .text(let string):
-            Logger.logLowPriority("Received text: \(string)")
+//            Logger.logLowPriority("Received text: \(string)")
             handleRecievedText(text: string)
         case .binary(let data):
             Logger.logLowPriority("Received data: \(data.count)")
@@ -180,7 +181,7 @@ extension Bot {
                 ready(payload: response)
                 break
             case .guildCreate:
-                
+                guildCreate(payload: response)
                 break
             default:
                 break
@@ -202,7 +203,22 @@ extension Bot {
             }
            
             let ready = Ready(jsonDict:jsonDict)
-            print (ready)
+            Logger.logHighPriority("logged in! Bot: \"\(ready?.user.username)\"")
+        } catch let error {
+            Logger.log(error.localizedDescription)
+        }
+    }
+    
+    func guildCreate(payload: Payload) {
+        do {
+            let data = try JSONEncoder().encode(payload.data)
+            guard let jsonData = try? JSONSerialization.jsonObject(with: data),
+                  let jsonDict = jsonData as? [String: Any] else {
+                return
+            }
+           
+            let guild = Guild(jsonDict:jsonDict)
+           print(guild)
         } catch let error {
             Logger.log(error.localizedDescription)
         }

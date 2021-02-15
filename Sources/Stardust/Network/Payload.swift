@@ -249,6 +249,17 @@ struct Payload: Codable, Mappable {
         case raw = "RAW"
         case invalidated = "INVALIDATED"
 
+        /**
+         Guild create event.
+         
+         This event can be sent in three different scenarios:
+         1. When a user is initially connecting, to lazily load and backfill information for all unavailable guilds sent in the Ready event. Guilds that are unavailable due to an outage will send a Guild Delete event.
+         1. When a Guild becomes available again to the client.
+         1. When the current user joins a new Guild.
+         The inner payload is a guild object, with all the extra fields specified.
+         
+         - Note:  If you are using Gateway Intents, members and presences returned in this event will only contain your bot and users in voice channels unless you specify the `GUILD_PRESENCES` intent.
+         */
         case guildCreate = "GUILD_CREATE"
         case guildUpdate = "GUILD_UPDATE"
         case guildDelete = "GUILD_DELETE"
