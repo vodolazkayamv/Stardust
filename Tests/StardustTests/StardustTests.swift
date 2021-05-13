@@ -18,7 +18,7 @@ final class StardustTests: XCTestCase {
     func testAuth() {
         let e = expectation(description: "Alamofire")
 
-        let token = "ODA4MDMxODc4Njk4NzYyMjcw.YCAoVA.99-8XVQ5yIw1dxmXDg0HYnaSa8s"
+        let token = "<bot token>"
         let headers: HTTPHeaders = [HTTPHeader.authorization("Bot \(token)")]
         
         let request = AF.request(Endpoints.gatewayBot.url,
