@@ -4,6 +4,8 @@ import XCTest
 import Alamofire
 
 final class StardustTests: XCTestCase {
+    let token = "<bot token>"
+    
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
@@ -18,7 +20,6 @@ final class StardustTests: XCTestCase {
     func testAuth() {
         let e = expectation(description: "Alamofire")
 
-        let token = "<bot token>"
         let headers: HTTPHeaders = [HTTPHeader.authorization("Bot \(token)")]
         
         let request = AF.request(Endpoints.gatewayBot.url,
@@ -43,8 +44,6 @@ final class StardustTests: XCTestCase {
     }
     
     func testBot() {
-        let token = "ODA4MDMxODc4Njk4NzYyMjcw.YCAoVA.99-8XVQ5yIw1dxmXDg0HYnaSa8s"
-
         let e = expectation(description: "Alamofire")
 
         let bot = Bot(token: token)
